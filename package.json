@@ -1,0 +1,21 @@
+{
+  "name": "lucky-minuta",
+  "version": "1.0.0",
+  "description": "Bot de discord para crear minutas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "author": "Emir Ali",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "html-pdf": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.0-beta.4"
+  }
+}
